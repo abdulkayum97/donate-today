@@ -101,3 +101,52 @@ body {
     text-align: center;
     padding: 10px;
 }
+
+#our-donate-plan {
+    padding: 0 10% 100px;
+}
+
+.donate-plan-content {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.donate-plan-content h2 {
+    font-size: 42px;
+}
+
+.donate-plan-content p {
+    margin: 30px 0 50px;
+}
+
+.donate-plan-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.donate-plan-box .plan-box-content {
+    width: 28%;
+    padding: 80px 30px;
+    border-radius: 5px;
+}
+
+.donate-plan-box .box-1 {
+    background-color: #9ebdff;
+}
+
+.donate-plan-box .box-2 {
+    background-color: #e0ffca;
+}
+
+.donate-plan-box .box-3 {
+    background-color: #b6ecf9;
+}
+
+.plan-box-content img {}
+
+.plan-box-content h4 {
+    margin: 30px 0;
+    font-size: 24px;
+}
