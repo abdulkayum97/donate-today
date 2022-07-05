@@ -79,8 +79,8 @@ body {
 
 .donate-today-content .different-box {
     border: 2px solid #1e3799;
-    color: #ffffff;
-    background: #6a89cc;
+    color: #1e3799;
+    background: #e0ffca;
 }
 
 .donate-today-content .donate-ammount h3 {
@@ -149,9 +149,34 @@ body {
     font-size: 24px;
 }
 
-#get-my-updates {
-    margin: 0 25% 80px;
+#our-success {
+    padding: 100px 10%;
+    background: #1E3799;
+    color: #fff;
+}
 
+#our-success .our-success-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-success-content .success-box {
+    border: 1px solid white;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+    width: 15%;
+}
+
+.success-box p {}
+
+.success-box h3 {
+    font-size: 42px;
+    margin: 10px 0;
+}
+
+#get-my-updates {
+    margin: 80px 25%;
 }
 
 #get-my-updates .get-my-update-contents {
