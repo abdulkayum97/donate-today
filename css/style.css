@@ -144,9 +144,49 @@ body {
     background-color: #b6ecf9;
 }
 
-.plan-box-content img {}
-
 .plan-box-content h4 {
     margin: 30px 0;
     font-size: 24px;
+}
+
+#get-my-updates {
+    margin: 0 25% 80px;
+
+}
+
+#get-my-updates .get-my-update-contents {
+    text-align: center;
+}
+
+.get-my-update-contents h2 {
+    font-size: 42px;
+}
+
+.get-my-update-contents p {
+    margin: 20px 0 50px;
+}
+
+.get-my-update-contents .form {
+    background: #9ebdff;
+    margin: auto;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.get-my-update-contents .form input {
+    width: 70%;
+    padding: 17px;
+    border: none;
+    background: #e0ffca;
+    border-radius: 5px 0 0 5px;
+}
+
+.get-my-update-contents .form .subscribe-button {
+    width: 30%;
+    background: #1e3799;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0 5px 5px 0;
 }
