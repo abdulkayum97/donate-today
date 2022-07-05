@@ -1,0 +1,45 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+}
+
+#banner {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgb(0, 0, 0)),
+        url('../images/bannar-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#banner .banner-content {
+    width: 50%;
+}
+
+
+#banner h1 {
+    font-size: 60px;
+}
+
+#banner p {
+    font-size: 18px;
+    margin: 20px 0 40px;
+}
+
+#banner a {
+    background-color: #1e3799;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
