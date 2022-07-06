@@ -28,12 +28,13 @@ body {
 
 
 #banner h1 {
-    font-size: 60px;
+    font-size: 72px;
 }
 
 #banner p {
-    font-size: 18px;
+    font-size: 16px;
     margin: 20px 0 40px;
+    line-height: 24px;
 }
 
 .donate-button {
